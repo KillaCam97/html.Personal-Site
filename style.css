@@ -55,3 +55,7 @@ svg {
 .svg-fill {
   fill: #0f1035 !important;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
