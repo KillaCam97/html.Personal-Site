@@ -5,3 +5,53 @@
   height: 200px;
   border-radius: 20%;
 }
+body {
+  background-color: #dcf2f1;
+  color: #0f1035 !important;
+}
+#name-header {
+  background-color: #7fc7d9;
+}
+#resume-portfolio {
+  background-color: #7fc7d9 !important;
+}
+#featured-3 {
+  background-color: #7fc7d9;
+}
+#contact-info {
+  background-color: #7fc7d9 !important;
+}
+#Footer {
+  background-color: #7fc7d9;
+}
+button {
+  background-color: #365486 !important;
+  color: white !important;
+}
+h1,
+h2,
+h3 {
+  color: #0f1035 !important;
+  font-family: "Rajdhani", sans-serif;
+}
+p {
+  color: #0f1035 !important;
+  font-family: "EB Garamond", serif;
+  font-family: "Rajdhani", sans-serif;
+}
+.button-text {
+  color: #dcf2f1 !important;
+  font-family: "EB Garamond", serif;
+  font-family: "Rajdhani", sans-serif;
+}
+svg {
+  color: #dcf2f1;
+  background-color: #0f1035;
+}
+#Resume {
+  background-color: #dcf2f1 !important;
+  margin-left: 5px;
+}
+.svg-fill {
+  fill: #0f1035 !important;
+}

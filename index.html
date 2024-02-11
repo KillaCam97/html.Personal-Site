@@ -11,14 +11,18 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rajdhani&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <section id="Hero">
       <div class="container col-xxl-8 px-4 pt-5">
-        <div class="px-4 pt-5 my-5 text-center border-bottom">
-          <h1 class="display-4 fw-bold text-body-emphasis">
-            My Name is Cameron
-          </h1>
+        <div class="px-4 pt-5 my-5 text-center border-bottom" id="name-header">
+          <h1 class="display-4 fw-bold">My Name is Cameron</h1>
           <div class="col-lg-6 mx-auto">
             <p class="lead mb-4">I am a programmer</p>
           </div>
@@ -30,12 +34,15 @@
         </div>
       </div>
     </section>
-    <section id="Resume">
+    <section id="resume">
       <div class="container my-5">
-        <div class="p-5 text-center bg-body-tertiary rounded-3">
+        <div
+          class="p-5 text-center bg-body-tertiary rounded-3"
+          id="resume-portfolio"
+        >
           <img src="./Headshot.jpeg" alt="Headshot" class="profile-img mt-5" />
-          <h1 class="text-body-emphasis mt-5">Hello!</h1>
-          <p class="col-lg-8 mx-auto fs-5 text-muted">
+          <h1 class="mt-5">Hello!</h1>
+          <p class="col-lg-8 mx-auto fs-5">
             I am a web developer and professional quality assurance technician
           </p>
           <div class="d-inline-flex gap-2 mb-5">
@@ -44,17 +51,21 @@
                 class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill"
                 type="button"
               >
-                Resume
+                <span class="button-text">Resume</span>
                 <svg
+                  id="Resume"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
-                  fill="currentColor"
                   class="bi bi-file-earmark-person"
                   viewBox="0 0 16 16"
                 >
-                  <path d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                   <path
+                    class="svg-fill"
+                    d="M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+                  />
+                  <path
+                    class="svg-fill"
                     d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2M9.5 3A1.5 1.5 0 0 0 11 4.5h2v9.255S12 12 8 12s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h5.5z"
                   />
                 </svg>
@@ -65,7 +76,7 @@
                 class="btn btn-outline-secondary btn-lg px-4 rounded-pill"
                 type="button"
               >
-                Portfolio
+                <span class="button-text">Portfolio</span>
               </button>
             </a>
           </div>
@@ -96,7 +107,7 @@
                 />
               </svg>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Attention To Detail</h3>
+            <h3 class="fs-2">Attention To Detail</h3>
             <p>
               My current job as a quality assurance technician requires strong
               attention to detail. I take pride in my work and am proud of how
@@ -121,7 +132,7 @@
                 />
               </svg>
             </div>
-            <h3 class="fs-2 text-body-emphasis">Teamwork</h3>
+            <h3 class="fs-2">Teamwork</h3>
             <p>
               I have always enjoyed working with others and the satisfaction
               that comes with accomplishing goals as a team. My whole life I
@@ -137,12 +148,13 @@
       <div class="container my-5">
         <div
           class="position-relative p-5 text-center text-muted bg-body border border-dashed rounded-5"
+          id="contact-info"
         >
           <a
             href="https://killacam97.github.io/html.Resume-Project/contact-details.html"
           >
             <button class="btn btn-primary px-5 mb-5" type="button">
-              Contact Me
+              <span class="button-text">Contact Me</span>
             </button>
           </a>
         </div>
@@ -153,9 +165,7 @@
         <footer
           class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
         >
-          <p class="col-md-4 mb-0 text-body-secondary">
-            © 2024 Cameron Shreenan
-          </p>
+          <p class="col-md-4 mb-0">© 2024 Cameron Shreenan</p>
         </footer>
       </div>
     </section>
